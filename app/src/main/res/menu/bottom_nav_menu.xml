@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Главная" />
+    <item
+        android:id="@+id/nav_converter"
+        android:icon="@drawable/ic_convert"
+        android:title="Конвертер" />
+    <item
+        android:id="@+id/nav_rates"
+        android:icon="@drawable/ic_graph"
+        android:title="Рынок" />
+    <item
+        android:id="@+id/nav_wallet"
+        android:icon="@drawable/ic_wallet"
+        android:title="Кошелек" />
+    <item
+        android:id="@+id/nav_more"
+        android:icon="@drawable/ic_more"
+        android:title="Еще" />
+</menu>

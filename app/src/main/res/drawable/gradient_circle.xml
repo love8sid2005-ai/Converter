@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Внешнее свечение -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#3300D4AA" />
+            <size android:width="64dp" android:height="64dp" />
+        </shape>
+    </item>
+
+    <!-- Основной градиент -->
+    <item
+        android:left="4dp"
+        android:top="4dp"
+        android:right="4dp"
+        android:bottom="4dp">
+        <shape android:shape="oval">
+            <gradient
+                android:startColor="#667EEA"
+                android:centerColor="#764BA2"
+                android:endColor="#F093FB"
+                android:angle="135"
+                android:type="linear" />
+            <size android:width="56dp" android:height="56dp" />
+        </shape>
+    </item>
+</layer-list>

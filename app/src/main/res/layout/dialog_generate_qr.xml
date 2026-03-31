@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/gradient_dialog_bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ГЕНЕРАЦИЯ QR-КОДА"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/hack_green"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сумма USD"
+        android:textSize="12sp"
+        android:textColor="@color/text_secondary"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/etAmount"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="100.00"
+        android:textColorHint="@color/text_secondary"
+        android:textColor="@color/white"
+        android:background="@drawable/card_dark"
+        android:padding="12dp"
+        android:inputType="numberDecimal"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Назначение (необязательно)"
+        android:textSize="12sp"
+        android:textColor="@color/text_secondary"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Оплата услуг"
+        android:textColorHint="@color/text_secondary"
+        android:textColor="@color/white"
+        android:background="@drawable/card_dark"
+        android:padding="12dp"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:id="@+id/ivPreview"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGenerate"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:text="СГЕНЕРИРОВАТЬ"
+            android:textColor="@color/white"
+            android:background="@drawable/button_red"
+            android:fontFamily="monospace"
+            android:textSize="12sp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:text="СОХРАНИТЬ"
+            android:textColor="@color/hack_green"
+            android:background="@drawable/button_outline_red"
+            android:fontFamily="monospace"
+            android:textSize="12sp"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:text="ОТМЕНА"
+            android:textColor="@color/white"
+            android:background="@drawable/button_red"
+            android:fontFamily="monospace"
+            android:textSize="12sp"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</LinearLayout>

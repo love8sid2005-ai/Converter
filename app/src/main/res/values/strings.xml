@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Конвертер валют</string>
+    <string name="convert">Конвертировать</string>
+    <string name="refresh">Обновить</string>
+    <string name="enter_amount">Введите сумму</string>
+    <string name="from_currency">Из валюты</string>
+    <string name="to_currency">В валюту</string>
+    <string name="result">Результат</string>
+    <string name="current_rates">Актуальные курсы</string>
+    <string name="error_invalid_amount">Ошибка: введите корректную сумму</string>
+    <string name="error_conversion">Ошибка при конвертации</string>
+    <string name="total_balance">Общий баланс</string>
+    <string name="quick_actions">БЫСТРЫЕ ДЕЙСТВИЯ</string>
+    <string name="my_accounts">МОИ СЧЕТА</string>
+    <string name="view_all">Посмотреть все</string>
+    <string name="recent_transactions">ПОСЛЕДНИЕ ТРАНЗАКЦИИ</string>
+    <string name="see_all">Смотреть все</string>
+    <string name="exchange_rates">КУРСЫ ОБМЕНА</string>
+    <string name="amount">СУММА</string>
+    <string name="from">ОТДАЮ</string>
+    <string name="to">ПОЛУЧАЮ</string>
+    <string name="top_up">Пополнить</string>
+    <string name="send">Отправить</string>
+    <string name="receive">Получить</string>
+    <string name="card">Карта</string>
+    <string name="invest">Инвестиции</string>
+    <string name="pay">Оплатить</string>
+</resources>

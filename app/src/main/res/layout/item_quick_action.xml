@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="110dp"
+    android:layout_height="130dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="?android:attr/selectableItemBackground"
+    android:padding="12dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="8dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!-- Иконка в круге -->
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:background="@drawable/circle_accent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iconImageView"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:tint="@color/white" />
+
+    </LinearLayout>
+
+    <!-- Название действия -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Отправить"
+        android:textSize="14sp"
+        android:textColor="@color/text_primary"
+        android:fontFamily="sans-serif"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:lineSpacingExtra="2dp" />
+
+</LinearLayout>

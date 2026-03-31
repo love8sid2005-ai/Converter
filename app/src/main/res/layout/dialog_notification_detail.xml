@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/gradient_dialog_bg">
+
+    <TextView
+        android:id="@+id/tvNotificationTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BTC ALL-TIME HIGH"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/hack_green"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvNotificationMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BITCOIN REACHES $65,000"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvNotificationTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="15 MIN AGO"
+        android:textSize="12sp"
+        android:textColor="@color/text_secondary"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAction"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="ПЕРЕЙТИ"
+            android:textColor="@color/white"
+            android:background="@drawable/button_red"
+            android:fontFamily="monospace"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="ЗАКРЫТЬ"
+            android:textColor="@color/white"
+            android:background="@drawable/button_outline_red"
+            android:fontFamily="monospace"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="6dp"
+    android:layout_marginBottom="6dp"
+    android:background="@drawable/currency_card_background"
+    android:gravity="center_vertical">
+
+    <!-- Иконка -->
+    <TextView
+        android:id="@+id/currencyIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/circle_accent"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Название -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/currencyCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USD"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:id="@+id/currencyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Доллар США"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="2dp"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:id="@+id/currencyCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="США"
+            android:textSize="12sp"
+            android:textColor="@color/text_disabled"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif" />
+    </LinearLayout>
+
+    <!-- Курс -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="end">
+
+        <TextView
+            android:id="@+id/currencyRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.0000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/accent"
+            android:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:id="@+id/currencyChange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+0.2%"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+
+</LinearLayout>

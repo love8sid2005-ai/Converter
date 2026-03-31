@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BYBIT CORE COLORS -->
+    <color name="bybit_bg">#0A0C0E</color>
+    <color name="bybit_surface">#13161C</color>
+    <color name="bybit_card">#13161C</color>
+    <color name="bybit_border">#2A2E36</color>
+    <color name="bybit_gray_light">#8A8F98</color>
+    <color name="bybit_gray_dark">#1E2226</color>
+
+    <!-- BYBIT ACCENT (ORANGE) -->
+    <color name="bybit_orange">#F7A600</color>
+    <color name="bybit_orange_dark">#FF7A00</color>
+    <color name="bybit_gradient_start">#F7A600</color>
+    <color name="bybit_gradient_end">#FF7A00</color>
+
+    <!-- BYBIT TEXT -->
+    <color name="bybit_text_primary">#FFFFFF</color>
+    <color name="bybit_text_secondary">#8A8F98</color>
+    <color name="bybit_text_disabled">#4A4F58</color>
+
+    <!-- BYBIT STATUS -->
+    <color name="bybit_success">#00C48C</color>
+    <color name="bybit_error">#FF5B5B</color>
+    <color name="bybit_warning">#F7A600</color>
+
+    <!-- ALIASES (COMPATIBILITY) -->
+    <color name="background">@color/bybit_bg</color>
+    <color name="surface">@color/bybit_surface</color>
+    <color name="card_background">@color/bybit_card</color>
+    <color name="card_border">@color/bybit_border</color>
+    <color name="accent">@color/bybit_orange</color>
+    <color name="accent_dark">@color/bybit_orange_dark</color>
+    <color name="accent_light">#FF8C00</color>
+    <color name="text_primary">@color/bybit_text_primary</color>
+    <color name="text_secondary">@color/bybit_text_secondary</color>
+    <color name="text_disabled">@color/bybit_text_disabled</color>
+    <color name="success">@color/bybit_success</color>
+    <color name="error">@color/bybit_error</color>
+    <color name="warning">@color/bybit_warning</color>
+
+    <!-- BASICS & FIXES -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="hack_green">@color/bybit_orange</color>
+    <color name="gradient_start">@color/bybit_gradient_start</color>
+    <color name="gradient_end">@color/bybit_gradient_end</color>
+    <color name="premium_gold">#FFD700</color>
+    <color name="accent_teal_alpha">#3300C48C</color>
+    <color name="gray">#2A2E36</color>
+    <color name="info">#2D8CFF</color>
+    <color name="accent_teal">#00C48C</color>
+</resources>
